@@ -89,7 +89,7 @@ export default function Home() {
               previews={[design3]}
               title="this.Portfolio"
               description="Mon portfolio, celui sur lequel vous naviguez actuellement ;)."
-              githubLink="#"
+              githubLink="https://github.com/PierreChagnon/portfolio"
               frameworks={['React js', 'Next js', 'Tailwind css']}
             />
             <Card
