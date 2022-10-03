@@ -49,7 +49,7 @@ export default function Home() {
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl hover:text-gray-400 transition duration-150 ease-out hover:ease-in' /></li>
               <li>
-                <button onClick={handleShowModal} className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:scale-110 transition duration-150 ease-out hover:ease-in shadow-md' href="#">Resume</button>
+                <button onClick={handleShowModal} className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:scale-110 transition duration-150 ease-out hover:ease-in shadow-md' href="#">Mon CV</button>
               </li>
             </ul>
           </nav>
