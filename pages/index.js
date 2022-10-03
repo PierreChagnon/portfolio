@@ -111,10 +111,10 @@ export default function Home() {
           <div className='flex my-2 items-center'>
             <AiFillPhone className='mr-5 text-4xl text-gray-600 dark:text-gray-400' /><p className='py-2 text-teal-500 w-56'>+33 6 78 79 68 05</p>
           </div>
-          <form action="https://formsubmit.co/363a3252e3545c6eb594a2fd9095b882" method="POST" className='flex flex-col justify-center text-center mt-8 '>
+          <form action="https://formsubmit.co/pc.chagnon@gmail.com" method="POST" className='flex flex-col justify-center text-center mt-8 '>
             <input className='dark:outline-none dark:border-0 outline-gray-400 text-gray-600 border-gray-400 border-2 rounded-md my-2 h-10 p-2 ' type="email" name='email' placeholder='Your email...' required />
             <textarea className='dark:outline-none dark:border-0 outline-gray-400 text-gray-600 border-gray-400 border-2 rounded-md my-2 p-2 h-32 ' name="message" id="textarea" placeholder='Your message...'></textarea>
-            <input type="hidden" name="_next" value="http://localhost:3000"></input>
+            <input type="hidden" name="_next" value="https://pierrechagnon.fr"></input>
             <button className='hover:scale-105 transition duration-150 ease-out hover:ease-in shadow-md w-1/2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white p-2 rounded-md mx-auto my-4' type='submit'>Send message</button>
           </form>
         </section>

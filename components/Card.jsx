@@ -24,7 +24,7 @@ export default function Card({ id, previews, title, description, githubLink = '#
             id={id}
             className='hover:scale-105 transition duration-150 ease-out hover:ease-in flex flex-col flex-1 items-center justify-between cursor-pointer shadow-lg p-10 rounded-xl my-10 bg-white'
         >
-            {show ? <MoreInfos screens={screens} id={id + "-info"} width={width} height={height} /> : ''}
+            {/* {show ? <MoreInfos screens={screens} id={id + "-info"} width={width} height={height} /> : ''} */}
             <div className='flex justify-around max-h-40 md:max-h-60'>
                 {previews.map((img, key) => {
                     return <Image key={key} src={img} objectFit={"contain"} />
