@@ -61,9 +61,9 @@ export default function Home() {
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 items-center'>
-            <a className='hover:scale-110 transition duration-150 ease-out hover:ease-in' href='https://github.com/PierreChagnon' target="_blank"><AiFillGithub className='cursor-pointer text-gray-800 dark:text-gray-400' /></a>
+            <a className='hover:scale-110 transition duration-150 ease-out hover:ease-in' href='https://github.com/PierreChagnon' target="_blank" rel="noreferrer" ><AiFillGithub className='cursor-pointer text-gray-800 dark:text-gray-400' /></a>
             <a href='mailto:pc.chagnon@gmail.com'><AiFillMail className='cursor-pointer text-teal-600 dark:text-cyan-500 hover:scale-110 transition duration-150 ease-out hover:ease-in' /></a>
-            <a className='hover:scale-110 transition duration-150 ease-out hover:ease-in' href='https://www.malt.fr/profile/pierrechagnon' target="_blank"><img className="object-contain" width={40} src="https://dam.malt.com/rebranding2020/malt-logo/icon-76x76" alt="" /></a>
+            <a className='hover:scale-110 transition duration-150 ease-out hover:ease-in' href='https://www.malt.fr/profile/pierrechagnon' target="_blank" rel="noreferrer" ><img className="object-contain" width={40} src="https://dam.malt.com/rebranding2020/malt-logo/icon-76x76" alt="" /></a>
           </div>
           <div className='relative w-80 h-80 mx-auto my-20 md:h-96 md:w-96'>
             <Image className='rounded-full' src={profil} layout="fill" />
