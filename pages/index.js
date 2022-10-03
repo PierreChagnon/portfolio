@@ -57,7 +57,7 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium text-center md:text-6xl'>Pierre Chagnon</h2>
             <h3 className='text-2xl py-2 text-center md:text-3xl dark:text-white'>Fullstack developper</h3>
             <p className='text-justify mx-auto text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl dark:text-gray-400'>
-              Développeur junior freelance. Je suis à votre disposition pour vous accompagner dans votre projet de site internet ou d`&apos;`application mobile. Contactez moi afin que nous puissions commencer à travailler !
+              Développeur junior freelance. Je suis à votre disposition pour vous accompagner dans votre projet de site internet ou d&apos;application mobile. Contactez moi afin que nous puissions commencer à travailler !
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 items-center'>
@@ -72,7 +72,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
-            <p className='text-mb py-2 leading-8 text-gray-800 dark:text-gray-400'>Les <span className='text-teal-500'>projets</span> sur lesquels j'ai travaillé :</p>
+            <p className='text-mb py-2 leading-8 text-gray-800 dark:text-gray-400'>Les <span className='text-teal-500'>projets</span> sur lesquels j&apos;ai travaillé :</p>
           </div>
           <div className='lg:flex gap-10'>
             <Card
@@ -104,7 +104,7 @@ export default function Home() {
         </section>
         <section className='flex flex-col'>
           <h3 className='text-3xl py-1 mt-10 dark:text-white'>Contact</h3>
-          <p className='text-mb mb-5 py-2 leading-8 text-gray-800 dark:text-gray-400'>N'hésitez pas à m'envoyer <span className='text-teal-500'>un message </span>:</p>
+          <p className='text-mb mb-5 py-2 leading-8 text-gray-800 dark:text-gray-400'>N&apos;hésitez pas à m&apos;envoyer <span className='text-teal-500'>un message </span>:</p>
           <div className='flex my-2 items-center' >
             <AiFillMail className='mr-5 text-4xl text-gray-600 dark:text-gray-400' /><a href='mailto:pc.chagnon@gmail.com' className='py-2 text-teal-500 w-56'>pc.chagnon@gmail.com</a>
           </div>
