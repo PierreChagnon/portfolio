@@ -35,7 +35,7 @@ export default function Card({ id, previews, title, description, githubLink = '#
             <p className='py-2 text-justify'>{description}</p>
             <div className="flex w-full justify-center items-center text-lg my-4">
                 <AiFillGithub className="text-2xl" />
-                <a href={githubLink} onclick="event.preventDefault()" target="_blank" rel="noreferrer" className='ml-4 hover:text-teal-800 transition duration-150 ease-out hover:ease-in py-4 text-teal-600'>Github link</a>
+                <a href={githubLink} onclick="event.preventDefault()" target="_blank" rel="noreferrer" className='ml-4 hover:text-teal-800 transition duration-150 ease-out hover:ease-in py-4 text-teal-600'>lien Github</a>
             </div>
             <div className='flex justify-center gap-x-10 flex-wrap '>
                 {frameworks.map((framework, key) => {

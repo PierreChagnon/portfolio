@@ -57,7 +57,7 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium text-center md:text-6xl'>Pierre Chagnon</h2>
             <h3 className='text-2xl py-2 text-center md:text-3xl dark:text-white'>Fullstack developper</h3>
             <p className='text-justify mx-auto text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl dark:text-gray-400'>
-              French freelancer providing services for your frontend and backend needs. Join me down below and let`&apos;`s get started !
+              Développeur junior freelance. Je suis à votre disposition pour vous accompagner dans votre projet de site internet ou d'application mobile. Contactez moi afin que nous puissions commencer à travailler !
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 items-center'>
@@ -72,14 +72,14 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
-            <p className='text-mb py-2 leading-8 text-gray-800 dark:text-gray-400'>Some <span className='text-teal-500'>projects</span> I worked on :</p>
+            <p className='text-mb py-2 leading-8 text-gray-800 dark:text-gray-400'>Les <span className='text-teal-500'>projets</span> sur lesquels j'ai travaillé :</p>
           </div>
           <div className='lg:flex gap-10'>
             <Card
               id={"card-1"}
               previews={[design1, design2]}
               title="L'ambassadeur"
-              description="Mobile game app built with React Native. Available on App Store and Google Play."
+              description="Application mobile développée avec React Native. Travail réalisé pour le compte de la société Beyond Games. Je suis intervenu sur toute la conception, du design à l'intégration en React Native. L'application est disponible sur l'App Store et le Google Play"
               githubLink="https://github.com/PierreChagnon/Ambassadeur"
               frameworks={["React Native", "CSS 3", "Figma"]}
               screens={[design1, design2, ambLogo]}
@@ -88,7 +88,7 @@ export default function Home() {
               id={'card-2'}
               previews={[design3]}
               title="this.Portfolio"
-              description="My website portfolio built with React js. You can take a look at my work and contact me."
+              description="Mon portfolio, celui sur lequel vous naviguez actuellement ;)."
               githubLink="#"
               frameworks={['React js', 'Next js', 'Tailwind css']}
             />
@@ -96,7 +96,7 @@ export default function Home() {
               id={'card - 3'}
               previews={[design4]}
               title="Calculateur loyer Pinel"
-              description="Site d'informations sur la loi Pinel et calculateur de réduction d'impôt Pinel. Module React js intégré dans le code HTML. Le formulaire communique les informations sur une base de donnée MySQL via une application Express sur Node js"
+              description="Site d'informations sur la loi Pinel et calculateur de réduction d'impôt Pinel. Module React js intégré dans le code HTML. Le formulaire communique les informations sur une base de donnée MySQL via une application Express sur Node js."
               githubLink="#"
               frameworks={['React js', 'Express', 'Node js', 'MySQL']}
             />
@@ -104,7 +104,7 @@ export default function Home() {
         </section>
         <section className='flex flex-col'>
           <h3 className='text-3xl py-1 mt-10 dark:text-white'>Contact</h3>
-          <p className='text-mb mb-5 py-2 leading-8 text-gray-800 dark:text-gray-400'>Do not hesitate to <span className='text-teal-500'>send me a message </span>:</p>
+          <p className='text-mb mb-5 py-2 leading-8 text-gray-800 dark:text-gray-400'>N'hésitez pas à m'envoyer <span className='text-teal-500'>un message </span>:</p>
           <div className='flex my-2 items-center' >
             <AiFillMail className='mr-5 text-4xl text-gray-600 dark:text-gray-400' /><a href='mailto:pc.chagnon@gmail.com' className='py-2 text-teal-500 w-56'>pc.chagnon@gmail.com</a>
           </div>
