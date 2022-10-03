@@ -57,7 +57,7 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium text-center md:text-6xl'>Pierre Chagnon</h2>
             <h3 className='text-2xl py-2 text-center md:text-3xl dark:text-white'>Fullstack developper</h3>
             <p className='text-justify mx-auto text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl dark:text-gray-400'>
-              Développeur junior freelance. Je suis à votre disposition pour vous accompagner dans votre projet de site internet ou d'application mobile. Contactez moi afin que nous puissions commencer à travailler !
+              Développeur junior freelance. Je suis à votre disposition pour vous accompagner dans votre projet de site internet ou d`&apos;`application mobile. Contactez moi afin que nous puissions commencer à travailler !
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 items-center'>
