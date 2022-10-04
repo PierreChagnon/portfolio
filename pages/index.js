@@ -25,13 +25,10 @@ import MoreInfos from "../components/MoreInfos"
 import { useState } from 'react'
 
 export default function Home() {
-  console.log("index rendered")
-
   const [darkMode, setDarkMode] = useState(false)
   const [showCv, setShowCv] = useState(false)
   const [showInfos, setShowInfos] = useState(false)
   const [screens, setScreens] = useState(null)
-
 
   const handleCloseModal = () => {
     document.body.classList.toggle('overflow-hidden')
