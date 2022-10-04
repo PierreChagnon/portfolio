@@ -85,7 +85,7 @@ export default function Home() {
           <a href='mailto:pc.chagnon@gmail.com'><AiFillMail className='cursor-pointer text-teal-600 dark:text-cyan-500 hover:scale-110 transition duration-150 ease-out hover:ease-in' /></a>
           <a className='hover:scale-110 transition duration-150 ease-out hover:ease-in' href='https://www.malt.fr/profile/pierrechagnon' target="_blank" rel="noreferrer" ><img className="object-contain" width={40} src="https://dam.malt.com/rebranding2020/malt-logo/icon-76x76" alt="" /></a>
         </div>
-        <div className='relative w-80 h-80 mx-auto my-20 md:h-96 md:w-96'>
+        <div className='relative w-60 h-60 mx-auto my-20 md:h-96 md:w-96'>
           <Image className='rounded-full' src={profil} layout="fill" />
         </div>
         <section>
