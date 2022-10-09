@@ -117,7 +117,8 @@ export default function Home() {
               id={'card - 3'}
               previews={[design4]}
               title="Calculateur loyer Pinel"
-              description="Site d'informations sur la loi Pinel et calculateur de réduction d'impôt Pinel. Module React js intégré dans le code HTML. Le formulaire communique les informations sur une base de données MySQL via une application Express sur Node js."
+              description="About
+              Site d'informations sur la loi Pinel, calculateur de réduction d'impôt Pinel et générateur de lead. Module React js intégré dans le code HTML. Le formulaire communique les informations sur une base de données MySQL via une application Express sur Node js."
               githubLink="#"
               frameworks={['React js', 'Express', 'Node js', 'MySQL']}
             />
