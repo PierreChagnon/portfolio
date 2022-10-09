@@ -79,7 +79,7 @@ export default function Home() {
         </div>
         <div id='icons-container' className='md:sticky top-0 w-fit z-30 mx-auto text-5xl flex gap-16 py-4 items-center'>
           <a className='hover:scale-110 transition duration-150 ease-out hover:ease-in' href='https://github.com/PierreChagnon' target="_blank" rel="noreferrer" ><AiFillGithub className='cursor-pointer text-gray-800 dark:text-gray-400' /></a>
-          <a href='mailto:pc.chagnon@gmail.com'><AiFillMail className='cursor-pointer text-teal-600 dark:text-cyan-500 hover:scale-110 transition duration-150 ease-out hover:ease-in' /></a>
+          <a href='#contact'><AiFillMail className='cursor-pointer text-teal-600 dark:text-cyan-500 hover:scale-110 transition duration-150 ease-out hover:ease-in' /></a>
           <a className='hover:scale-110 transition duration-150 ease-out hover:ease-in' href='https://www.malt.fr/profile/pierrechagnon' target="_blank" rel="noreferrer" ><img className="object-contain" width={40} src="https://dam.malt.com/rebranding2020/malt-logo/icon-76x76" alt="" /></a>
         </div>
         <div className='relative w-60 h-60 mx-auto my-20 md:h-96 md:w-96'>
@@ -92,15 +92,18 @@ export default function Home() {
           </div>
           <div className='lg:flex gap-10'>
             <Card
+              linkText="Lien vers l'App store"
+              link="https://apps.apple.com/fr/app/lambassadeur/id1631734917" //lien vers le site
               handleShowInfos={() => handleShowInfos([slideAmbassadeur])}
               id={"card-1"}
               previews={[design1, design2]}
               title="L'ambassadeur"
               description="Application mobile développée avec React Native. Travail réalisé pour le compte de la société Beyond Games. Je suis intervenu sur toute la conception, du design à l'intégration en React Native. L'application est disponible sur l'App Store et le Google Play"
-              githubLink="https://github.com/PierreChagnon/Ambassadeur"
               frameworks={["React Native", "CSS 3", "Figma"]}
             />
             <Card
+              link="https://pierrechagnon.fr"
+              linkText='Lien du site'
               handleShowInfos={() => handleShowInfos([design3, design32, design33])}
               id={'card-2'}
               previews={[design3]}
@@ -120,7 +123,7 @@ export default function Home() {
             />
           </div>
         </section>
-        <section className='flex flex-col'>
+        <section id='contact' className='flex flex-col'>
           <h3 className='text-3xl py-1 mt-10 dark:text-white'>Contact</h3>
           <p className='text-mb mb-5 py-2 leading-8 text-gray-800 dark:text-gray-400'>N&apos;hésitez pas à m&apos;envoyer <span className='text-teal-500'>un message </span>:</p>
           <div className='flex my-2 items-center' >
@@ -130,8 +133,8 @@ export default function Home() {
             <AiFillPhone className='mr-5 text-4xl text-gray-600 dark:text-gray-400' /><p className='py-2 text-teal-500 w-56'>+33 6 78 79 68 05</p>
           </div>
           <form action="https://formsubmit.co/pc.chagnon@gmail.com" method="POST" className='flex flex-col justify-center text-center mt-8 '>
-            <input className='dark:outline-none dark:border-0 outline-gray-400 text-gray-600 border-gray-400 border-2 rounded-md my-2 h-10 p-2 ' type="email" name='email' placeholder='Your email...' required />
-            <textarea className='dark:outline-none dark:border-0 outline-gray-400 text-gray-600 border-gray-400 border-2 rounded-md my-2 p-2 h-32 ' name="message" id="textarea" placeholder='Your message...'></textarea>
+            <input className='dark:outline-none dark:border-0 outline-gray-400 text-gray-600 border-gray-400 border-2 rounded-md my-2 h-10 p-2 ' type="email" name='email' placeholder='Votre adresse mail...' required />
+            <textarea className='dark:outline-none dark:border-0 outline-gray-400 text-gray-600 border-gray-400 border-2 rounded-md my-2 p-2 h-32 ' name="message" id="textarea" placeholder='Votre message...'></textarea>
             <input type="hidden" name="_next" value="https://pierrechagnon.fr"></input>
             <button className='hover:scale-105 transition duration-150 ease-out hover:ease-in shadow-md w-1/2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white p-2 rounded-md mx-auto my-4' type='submit'>Envoyer</button>
           </form>
