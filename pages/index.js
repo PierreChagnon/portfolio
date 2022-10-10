@@ -113,12 +113,13 @@ export default function Home() {
               frameworks={['React js', 'Next js', 'Tailwind css']}
             />
             <Card
+              linkText="Site hébergé sur Heroku"
+              link="https://calculateur-loyer-pinel.herokuapp.com" //lien vers le site
               handleShowInfos={() => handleShowInfos([design4])}
               id={'card - 3'}
               previews={[design4]}
-              title="Calculateur loyer Pinel"
-              description="About
-              Site d'informations sur la loi Pinel, calculateur de réduction d'impôt Pinel et générateur de lead. Module React js intégré dans le code HTML. Le formulaire communique les informations sur une base de données MySQL via une application Express sur Node js."
+              title="Calculateur loyer Pinel (work in progress...)"
+              description="Site d'informations sur la loi Pinel, calculateur de réduction d'impôt Pinel et générateur de lead. Module React js intégré dans le code HTML. Le formulaire communique les informations sur une base de données MySQL via une application Express sur Node js."
               githubLink="#"
               frameworks={['React js', 'Express', 'Node js', 'MySQL']}
             />
