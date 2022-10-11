@@ -8,7 +8,7 @@ export default function Card({ id, previews, title, description, githubLink = '#
         <div
             onClick={handleShowInfos}
             id={id}
-            className='hover:shadow-xl dark:hover:shadow-lg dark:hover:shadow-gray-500 dark:shadow-gray-500 transition duration-150 ease-out hover:ease-in flex flex-col flex-1 items-center justify-between cursor-pointer shadow-md p-10 rounded-xl my-10 bg-white'
+            className='hover:shadow-xl dark:hover:shadow-lg dark:hover:shadow-gray-500 dark:shadow-none transition duration-150 ease-out hover:ease-in flex flex-col flex-1 items-center justify-between cursor-pointer shadow-md p-10 rounded-xl my-10 bg-white'
         >
             <div className='flex justify-around max-h-40 md:max-h-60'>
                 {previews.map((img, key) => {
@@ -20,7 +20,7 @@ export default function Card({ id, previews, title, description, githubLink = '#
             <div className="flex flex-col gap-4 my-6 ">
                 {
                     githubLink !== "#" &&
-                    <div onClick={(e) => e.stopPropagation()} className="flex w-full justify-center items-center text-lg ">
+                    <div onClick={(e) => e.stopPropagation()} className="flex w-full justify-center items-center text-sm md:text-lg ">
                         <AiFillGithub className="text-2xl mr-4" />
                         <span className="before:block before:absolute before:inset-0 before:border-b before:border-b-teal-600 before:hover:border-b-teal-800 before:w-full before:scale-x-0 before:hover:scale-x-100 relative inline-block before:transition before:duration-150 before:ease-out before:hover:ease-in">
                             <a href={githubLink} target="_blank" rel="noreferrer" className="w-full relative hover:text-teal-800 transition duration-150 ease-out hover:ease-in text-teal-600">Lien Github</a>
@@ -29,7 +29,7 @@ export default function Card({ id, previews, title, description, githubLink = '#
                 }
                 {
                     link !== "#" &&
-                    <div onClick={(e) => e.stopPropagation()} className="flex w-full justify-center items-center text-lg ">
+                    <div onClick={(e) => e.stopPropagation()} className="flex w-full justify-center items-center text-sm md:text-lg ">
                         <FaExternalLinkSquareAlt className="text-xl mr-4" />
                         <span className="before:block before:absolute before:inset-0 before:border-b before:border-b-teal-600 before:hover:border-b-teal-800 before:w-full before:scale-x-0 before:hover:scale-x-100 relative inline-block before:transition before:duration-150 before:ease-out before:hover:ease-in">
                             <a href={link} target="_blank" rel="noreferrer" className="w-full relative hover:text-teal-800 transition duration-150 ease-out hover:ease-in text-teal-600">{linkText}</a>
