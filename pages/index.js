@@ -125,7 +125,7 @@ export default function Home() {
               handleShowInfos={() => handleShowInfos([design3, design32, design33])}
               id={'card-2'}
               previews={[design3]}
-              title="this.Portfolio"
+              title="Mon portfolio"
               description="Mon portfolio, celui sur lequel vous naviguez actuellement ;)."
               githubLink="https://github.com/PierreChagnon/portfolio"
               frameworks={['React js', 'Next js', 'Tailwind css']}
