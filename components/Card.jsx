@@ -8,7 +8,7 @@ export default function Card({ id, previews, title, description, githubLink = '#
         <div
             onClick={handleShowInfos}
             id={id}
-            className='hover:shadow-xl dark:hover:shadow-lg dark:hover:shadow-gray-500 dark:shadow-none transition duration-150 ease-out hover:ease-in flex flex-col flex-1 items-center justify-between cursor-pointer shadow-md p-10 rounded-xl my-10 bg-white'
+            className='hover:shadow-xl dark:hover:shadow-lg dark:hover:shadow-gray-500 dark:shadow-none transition duration-150 ease-out hover:ease-in flex flex-col items-center justify-between cursor-pointer shadow-md p-10 rounded-xl my-10 bg-white flex-1'
         >
             <div className='flex justify-around max-h-40 md:max-h-60'>
                 {previews.map((img, key) => {

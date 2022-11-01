@@ -110,7 +110,7 @@ export default function Home() {
             <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
             <p className='text-mb py-2 leading-8 text-gray-800 dark:text-gray-400'>Les <span className='text-teal-500'>projets</span> sur lesquels j&apos;ai travaillé :</p>
           </div>
-          <div className='lg:flex gap-10'>
+          <div className='lg:flex lg:flex-wrap gap-10'>
             <Card
               linkText="Lien vers l'App store"
               link="https://apps.apple.com/fr/app/lambassadeur/id1631734917" //lien vers le site
