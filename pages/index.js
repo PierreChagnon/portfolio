@@ -21,6 +21,8 @@ import design33 from '../public/project-2/screen3.png'
 
 import design4 from '../public/project-3/screen1.png'
 
+import design5 from "../public/projet-4/reactiontime.png"
+
 import slideAmbassadeur from '../public/project-1/slide-ambassadeur.png'
 
 import Card from '../components/Card'
@@ -131,7 +133,7 @@ export default function Home() {
               frameworks={['React js', 'Next js', 'Tailwind css']}
             />
             <Card
-              linkText="Site hébergé sur Heroku"
+              linkText="Lien du site"
               link="https://calculateur-loyer-pinel.herokuapp.com" //lien vers le site
               handleShowInfos={() => handleShowInfos([design4])}
               id={'card - 3'}
@@ -140,6 +142,17 @@ export default function Home() {
               description="Site d'informations sur la loi Pinel, calculateur de réduction d'impôt Pinel et générateur de lead. Module React js intégré dans le code HTML. Le formulaire communique les informations sur une base de données MySQL via une application Express sur Node js."
               githubLink="#"
               frameworks={['React js', 'Express', 'Node js', 'MySQL']}
+            />
+            <Card
+              linkText="Lien du site"
+              link="https://f1-reaction-time.herokuapp.com/" //lien vers le site
+              handleShowInfos={() => handleShowInfos([design5])}
+              id={'card - 4'}
+              previews={[design5]}
+              title="F1 reaction time test"
+              description="Petit jeu pour tester son temps de reaction."
+              githubLink="https://github.com/PierreChagnon/reaction-time"
+              frameworks={['HTML', 'CSS', 'JS']}
             />
           </div>
         </section>
