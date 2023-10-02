@@ -23,7 +23,7 @@ export default function Card({ id, previews, title, description, githubLink = '#
                     <div onClick={(e) => e.stopPropagation()} className="flex w-full justify-center items-center text-sm md:text-lg ">
                         <FaExternalLinkSquareAlt className="text-xl mr-4" />
                         <span className="before:block before:absolute before:inset-0 before:border-b before:border-b-teal-600 before:hover:border-b-teal-800 before:w-full before:scale-x-0 before:hover:scale-x-100 relative inline-block before:transition before:duration-150 before:ease-out before:hover:ease-in">
-                            <a href={link} target="_blank" rel="noreferrer" className="text-sm w-full relative hover:text-teal-800 transition duration-150 ease-out hover:ease-in text-teal-600">{linkText2}</a>
+                            <a href={link2} target="_blank" rel="noreferrer" className="text-sm w-full relative hover:text-teal-800 transition duration-150 ease-out hover:ease-in text-teal-600">{linkText2}</a>
                         </span>
                     </div>
                 }
