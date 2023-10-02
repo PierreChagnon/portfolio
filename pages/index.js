@@ -99,7 +99,7 @@ export default function Home() {
         <div className='flex items-center justify-around w-full py-6 lg:px-20 sm:px-10'>
             {logos.map((img, i) => {
               return (
-                <div key={i} className={img === nextjs ? 'dark:invert sm:w-16 w-8 sm:grayscale dark:hover:invert-0 hover:grayscale-0 hover:cursor-pointer hover:scale-110 ease-out transition duration-300' : 'sm:w-16 w-8 sm:grayscale hover:grayscale-0 hover:cursor-pointer hover:scale-110 ease-out transition duration-300'}>
+                <div key={i} className={img === nextjs ? 'dark:invert sm:w-16 w-8 sm:grayscale dark:hover:invert-0 hover:grayscale-0 hover:scale-110 ease-out transition duration-300' : 'sm:w-16 w-8 sm:grayscale hover:grayscale-0 hover:cursor-pointer hover:scale-110 ease-out transition duration-300'}>
                   <Image src={img} />
                 </div>
               )
