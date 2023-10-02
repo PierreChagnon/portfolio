@@ -94,13 +94,13 @@ export default function Home() {
           <a className='hover:scale-110 transition duration-150 ease-out hover:ease-in' href='https://www.malt.fr/profile/pierrechagnon' target="_blank" rel="noreferrer" ><img className="object-contain" width={40} src="https://dam.malt.com/rebranding2020/malt-logo/icon-76x76" alt="" /></a>
         </div>
         <div className='relative w-60 h-60 mx-auto my-12 md:h-96 md:w-96'>
-          <Image className='rounded-full' src={profil} layout="fill" />
+          <Image alt='photo de profil' className='rounded-full' src={profil} layout="fill" />
         </div>
         <div className='flex items-center justify-around w-full py-6 lg:px-20 sm:px-10'>
             {logos.map((img, i) => {
               return (
-                <div key={i} className={img === nextjs ? 'dark:invert sm:w-16 w-8 sm:grayscale dark:hover:invert-0 hover:grayscale-0 hover:scale-110 ease-out transition duration-300' : 'sm:w-16 w-8 sm:grayscale hover:grayscale-0 hover:scale-110 ease-out transition duration-300'}>
-                  <Image src={img} />
+                <div key={i} className={img === nextjs ? 'dark:invert sm:w-16 w-8 sm:grayscale dark:hover:invert-0 hover:grayscale-0 hover:scale-110 ease-out transition duration-300' : 'sm:w-16 w-8 sm:grayscale hover:grayscale-0  hover:scale-110 ease-out transition duration-300'}>
+                  <Image alt='logo des technos' src={img} />
                 </div>
               )
             })}
@@ -114,6 +114,8 @@ export default function Home() {
             <Card
               linkText="Lien vers l'App store"
               link="https://apps.apple.com/fr/app/lambassadeur/id1631734917" //lien vers le site
+              linkText2='Lien vers le Google Play Store'
+              link2='https://play.google.com/store/apps/details?id=com.beyondgames.ambassadeur&gl=FR'
               handleShowInfos={() => handleShowInfos([slideAmbassadeur])}
               id={"card-1"}
               previews={[design1, design2]}
