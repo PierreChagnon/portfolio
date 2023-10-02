@@ -128,7 +128,7 @@ export default function Home() {
               id={'card-2'}
               previews={[design3]}
               title="Mon portfolio"
-              description="Mon portfolio, celui sur lequel vous naviguez actuellement ;)."
+              description="Mon portfolio, celui sur lequel vous naviguez actuellement."
               githubLink="https://github.com/PierreChagnon/portfolio"
               frameworks={['React js', 'Next js', 'Tailwind css']}
             />
@@ -138,7 +138,7 @@ export default function Home() {
               handleShowInfos={() => handleShowInfos([design4])}
               id={'card - 3'}
               previews={[design4]}
-              title="Calculateur loyer Pinel (work in progress...)"
+              title="Agence d'investissement immobilier (En construction...)"
               description="Site d'informations sur la loi Pinel, calculateur de réduction d'impôt Pinel et générateur de lead. Module React js intégré dans le code HTML. Le formulaire communique les informations sur une base de données MySQL via une application Express sur Node js."
               githubLink="#"
               frameworks={['React js', 'Express', 'Node js', 'MySQL']}
