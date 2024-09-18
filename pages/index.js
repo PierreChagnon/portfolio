@@ -73,9 +73,6 @@ export default function Home() {
         <h1 className='text-xl font-burtons'><a href='https://pierrechagnon.fr' rel='noreferrer'>Pierre Chagnon</a></h1>
         <ul className='flex items-center'>
           <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl hover:text-gray-400 transition duration-150 ease-out hover:ease-in' /></li>
-          <li>
-            <button onClick={handleShowModal} className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:scale-110 transition duration-150 ease-out hover:ease-in shadow-md' href="#">Mon CV</button>
-          </li>
         </ul>
       </nav>
       <main className='bg-white px-10 md:px-20 lg:px-30 py-20 dark:bg-zinc-900 transition duration-500'>
@@ -163,9 +160,6 @@ export default function Home() {
           <p className='text-mb mb-5 py-2 leading-8 text-gray-800 dark:text-gray-400'>N&apos;hésitez pas à m&apos;envoyer <span className='text-teal-500'>un message </span>:</p>
           <div className='flex my-2 items-center' >
             <AiFillMail className='mr-5 text-4xl text-gray-600 dark:text-gray-400' /><a href='mailto:pc.chagnon@gmail.com' className='py-2 text-teal-500 w-56'>pc.chagnon@gmail.com</a>
-          </div>
-          <div className='flex my-2 items-center'>
-            <AiFillPhone className='mr-5 text-4xl text-gray-600 dark:text-gray-400' /><p className='py-2 text-teal-500 w-56'>+33 6 78 79 68 05</p>
           </div>
           <form action="https://formsubmit.co/pc.chagnon@gmail.com" method="POST" className='flex flex-col justify-center text-center mt-8 '>
             <input className='dark:outline-none dark:border-0 outline-gray-400 text-gray-600 border-gray-400 border-2 rounded-md my-2 h-10 p-2 ' type="email" name='email' placeholder='Votre adresse mail...' required />
